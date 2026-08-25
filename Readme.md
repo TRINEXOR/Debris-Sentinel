@@ -14,7 +14,7 @@ The project is intended for research, experimentation, education, and software d
 
 Production deployment:
 
-https://YOUR-RENDER-URL.onrender.com
+https://debris-sentinel.onrender.com
 
 ---
 
