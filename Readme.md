@@ -14,7 +14,7 @@ The project is intended for research, experimentation, education, and software d
 
 Production deployment:
 
-https://YOUR-RENDER-URL.onrender.com
+https://debris-sentinel.onrender.com/
 
 ---
 
@@ -840,3 +840,16 @@ https://render.com/
 Active development.
 
 The platform is continuously being improved with additional orbital analysis capabilities, model improvements, visualization features, and deployment optimizations.
+
+---
+
+## License
+
+Debris Sentinel is open-source software licensed under the MIT License.
+
+Copyright (c) 2026 TRINEXOR.
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense,
+and sell copies of the software, subject to the conditions of the MIT License.
+
+See the [LICENSE](LICENSE) file for the complete license terms.
