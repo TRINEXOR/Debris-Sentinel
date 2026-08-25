@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: space-debris-app
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: HF_REPO_ID
+        value: infinity1506/space-debris-models
+      - key: SLIM_DEPLOY
+        value: "true"
+      - key: CORS_ORIGINS
+        value: "*"
+    disk:
+      name: model-cache
+      mountPath: /app/data/models
+      sizeGB: 5
